@@ -16,6 +16,10 @@ This repository was created with the intention of demonstrating the attack of th
 
 ## Build:
 
+In the file ```mbroverwrite.c``` in ```#define DISK "/dev/sda"``` is indicating the disk where will be replaced by the payload.
+
+In the file ```mbroverwrite.c``` in ```unsigned char payload[]``` is storing the compiled file ```message.asm```, where the values are in HEX.
+
 ```
 $ git clone https://github.com/MrEmpy/MBROverwrite.git
 $ cd MBROverwrite
