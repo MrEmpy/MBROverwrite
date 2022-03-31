@@ -9,6 +9,10 @@ This repository was created with the intention of demonstrating the attack of th
 
 **Note**: **DO NOT RUN** on your personal machine, use a virtual machine to do the experiment.
 
+## Demonstration:
+
+<p align="center"><img src="/assets/demo.gif"></p>
+
 ## Requirements:
 
 * GCC
