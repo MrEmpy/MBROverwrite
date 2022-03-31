@@ -1,4 +1,4 @@
-<h1 align="center">「🖴」MBR Overwrite malware for linux</h1>
+<h1 align="center">「💽」MBR Overwrite malware for linux</h1>
 
 <p align="center"><img src="/assets/message.png"></p>
 
